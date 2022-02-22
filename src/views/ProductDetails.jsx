@@ -1,5 +1,4 @@
 import { useClient } from 'context/auth-context';
-import React from 'react';
 import { useQuery } from 'react-query';
 import { useParams } from 'react-router-dom';
 import ProductInfo from './components/ProductInfo';

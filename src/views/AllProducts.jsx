@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useClient } from 'context/auth-context';
 import { useQuery } from 'react-query';
 import ProductLists from 'views/components/ProductLists';

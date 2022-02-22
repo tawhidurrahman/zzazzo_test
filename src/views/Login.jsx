@@ -31,9 +31,9 @@ const Login = () => {
   };
 
   return (
-    <Container css={{ padding: '150px 0' }}>
+    <Container>
       <Row>
-        <Col css={{ mx: 'auto' }} col={{ '@md': '6', '@lg': '4', '@xl': '3' }}>
+        <Col css={{ mx: 'auto' }} col={{ '@md': '6', '@lg': '5', '@xl': '4' }}>
           <Form>
             <LoginCard>
               <LoginHeader>

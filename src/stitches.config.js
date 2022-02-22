@@ -55,8 +55,6 @@ export const {
       black: '#000',
       lightBlack: '#2b3553',
       blackState: '#1d253b',
-
-      opacity8: `rgba(255,255,255, .8)`,
     },
     space: {
       0: '0px',

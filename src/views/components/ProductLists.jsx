@@ -8,7 +8,6 @@ import { Flex } from 'components/Flex';
 import { CardBody, CardDescription } from 'components/Card';
 import { H3, H4, Span, A } from 'components/Typography';
 import { Button } from 'components/Button';
-import { Link } from 'react-router-dom';
 
 const ProductLists = ({ title, products }) => {
   return (
