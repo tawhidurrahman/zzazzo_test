@@ -20,7 +20,7 @@ const ProductInfo = ({ product }) => {
         <Row>
           <Col col={{ '@initial': '12', '@md': '6' }}>
             <Image css={{ marginBottom: '$5' }} src={product.image} alt='Product Image' />
-            <Row>
+            <Row gX='5'>
               <Col col={{ '@initial': '4' }}>
                 <Image src={placeholder} alt='Product Image' />
               </Col>

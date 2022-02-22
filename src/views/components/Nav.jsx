@@ -27,6 +27,7 @@ import {
   DropdownMenuTrigger,
 } from 'components/Dropdown';
 import { useAuth } from 'context/auth-context';
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
   const [navCollapse, setNavCollapse] = useState(false);
@@ -47,7 +48,9 @@ const Nav = () => {
     <Navbar variant={navCollapse ? 'white' : 'transparent'} expand='lg'>
       <Container variant='fluid'>
         <NavWrapper>
-          <NavbarBrand>Fashion Club</NavbarBrand>
+          <NavbarBrand as={Link} to='/'>
+            Fashion Club
+          </NavbarBrand>
         </NavWrapper>
         <NavbarToggler
           data-toggle='collapse'

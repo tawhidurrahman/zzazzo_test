@@ -22,10 +22,14 @@ const ProductLists = ({ title, products }) => {
           <ProductListCard key={product.id}>
             <CardBody>
               <Row>
-                <Col col={{ '@initial': '12', '@sm': '4', '@md': '4' }}>
-                  <Image src={product.image} alt='Product Image' />
+                <Col col={{ '@initial': '12', '@sm': '4', '@md': '3' }}>
+                  <Image
+                    css={{ width: '100%' }}
+                    src={product.image}
+                    alt='Product Image'
+                  />
                 </Col>
-                <Col col={{ '@initial': '12', '@sm': '8', '@md': '8' }}>
+                <Col col={{ '@initial': '12', '@sm': '8', '@md': '9' }}>
                   <A to={`/${product.id}`}>
                     <H4>{product.title}</H4>
                   </A>

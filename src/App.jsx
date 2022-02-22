@@ -8,14 +8,17 @@ import ProtectedRoute from 'components/ProtectedRoute';
 import AllProducts from 'views/AllProducts';
 import ProductDetails from 'views/ProductDetails';
 import ProductsByCategory from 'views/ProductsByCategory';
+import { Container } from 'components/Container';
 
 function AuthenticatedApp() {
   return (
-    <Routes>
-      <Route path='/' element={<AllProducts />} />
-      <Route path='/:id' element={<ProductDetails />} />
-      <Route path='/category/:category' element={<ProductsByCategory />} />
-    </Routes>
+    <Container>
+      <Routes>
+        <Route path='/' element={<AllProducts />} />
+        <Route path='/:id' element={<ProductDetails />} />
+        <Route path='/category/:category' element={<ProductsByCategory />} />
+      </Routes>
+    </Container>
   );
 }
 

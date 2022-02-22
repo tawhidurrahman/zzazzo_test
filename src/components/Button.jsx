@@ -37,7 +37,7 @@ export const Button = styled('button', {
       true: {
         color: '$rose7',
         border: '1px solid currentColor',
-        padding: '10px 28px',
+        padding: '11px 29px',
         background: 'transparent',
         '&:hover, &:active, &:focus': {
           background: 'transparent',
