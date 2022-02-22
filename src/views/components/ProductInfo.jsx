@@ -10,7 +10,6 @@ import { CardBody, CardCategory, CardDescription, CardHeader } from 'components/
 import { H3, H5, Span } from 'components/Typography';
 import { ToggleGroup, ToggleGroupItem } from 'components/ToggleGroup';
 import { Button } from 'components/Button';
-import placeholder from 'assets/img/jacket.png';
 
 const ProductInfo = ({ product }) => {
   return (
@@ -22,13 +21,7 @@ const ProductInfo = ({ product }) => {
             <Image css={{ marginBottom: '$5' }} src={product.image} alt='Product Image' />
             <Row gX='5'>
               <Col col={{ '@initial': '4' }}>
-                <Image src={placeholder} alt='Product Image' />
-              </Col>
-              <Col col={{ '@initial': '4' }}>
-                <Image src={placeholder} alt='Product Image' />
-              </Col>
-              <Col col={{ '@initial': '4' }}>
-                <Image src={placeholder} alt='Product Image' />
+                <Image src={product.image} alt='Product Image' />
               </Col>
             </Row>
           </Col>
